@@ -1,0 +1,32 @@
+version: "3"
+services:
+  db:
+    image: "postgres:12"
+    container_name: "pool_postgres"
+    environment:
+      POSTGRES_PASSWORD: password
+    ports:
+      - "5432:5432"
+    volumes:
+      - pool_db:/var/lib/postgresql/data
+  prosper-pool:
+    build: .
+    environment:
+      - LXRBITSIZE=30
+      - DB=db
+    command: ["./wait-for-it.sh", "db:5432", "--", "prosper-pool", "--phost", "db", "--fhost", "http://172.17.0.1:8088/v2"]
+    volumes:
+      - .:/go/src/prosper-pool
+      - lxrhash:/root/.lxrhash
+      - pool_conf:/root/.prosper
+    ports:
+      - "1234:1234"
+      - "7070:7070"
+    depends_on:
+      - db
+    links:
+      - db
+volumes:
+  pool_db:
+  lxrhash:
+  pool_conf:
