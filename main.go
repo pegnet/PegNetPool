@@ -1,7 +1,7 @@
 package main
 
 import (
-	"github.com/FactomWyomingEntity/prosper-pool/cmd"
+	"github.com/pegnet/PegNetPool/cmd"
 )
 
 // Pool entry point

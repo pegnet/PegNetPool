@@ -8,7 +8,7 @@ import (
 
 	"github.com/shopspring/decimal"
 
-	. "github.com/FactomWyomingEntity/prosper-pool/accounting"
+	. "github.com/pegnet/PegNetPool/accounting"
 )
 
 func TestShareMap(t *testing.T) {

@@ -7,8 +7,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/FactomWyomingEntity/prosper-pool/config"
-	. "github.com/FactomWyomingEntity/prosper-pool/polling"
+	"github.com/pegnet/PegNetPool/config"
+	. "github.com/pegnet/PegNetPool/polling"
 	"github.com/spf13/viper"
 )
 

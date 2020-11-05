@@ -4,7 +4,7 @@ import (
 	"testing"
 	"time"
 
-	. "github.com/FactomWyomingEntity/prosper-pool/polling"
+	. "github.com/pegnet/PegNetPool/polling"
 )
 
 func TestIsMarketOpen_Forex(t *testing.T) {

@@ -6,11 +6,11 @@ import (
 	"io/ioutil"
 	"os"
 
-	"github.com/FactomWyomingEntity/prosper-pool/config"
+	"github.com/pegnet/PegNetPool/config"
 
 	"github.com/Factom-Asset-Tokens/factom"
 
-	"github.com/FactomWyomingEntity/prosper-pool/accounting"
+	"github.com/pegnet/PegNetPool/accounting"
 	"github.com/pegnet/pegnetd/fat/fat2"
 
 	"github.com/spf13/cobra"

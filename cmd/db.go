@@ -7,13 +7,13 @@ import (
 	"io/ioutil"
 	"os"
 
-	"github.com/FactomWyomingEntity/prosper-pool/web"
+	"github.com/pegnet/PegNetPool/web"
 
-	"github.com/FactomWyomingEntity/prosper-pool/accounting"
+	"github.com/pegnet/PegNetPool/accounting"
 
 	"github.com/Factom-Asset-Tokens/base58"
-	"github.com/FactomWyomingEntity/prosper-pool/authentication"
-	"github.com/FactomWyomingEntity/prosper-pool/database"
+	"github.com/pegnet/PegNetPool/authentication"
+	"github.com/pegnet/PegNetPool/database"
 	"github.com/spf13/cobra"
 	"github.com/spf13/viper"
 )

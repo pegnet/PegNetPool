@@ -6,12 +6,12 @@ import (
 
 	"github.com/pegnet/pegnet/modules/grader"
 
-	"github.com/FactomWyomingEntity/prosper-pool/database"
+	"github.com/pegnet/PegNetPool/database"
 
 	"github.com/jinzhu/gorm"
 
 	"github.com/Factom-Asset-Tokens/factom"
-	"github.com/FactomWyomingEntity/prosper-pool/config"
+	"github.com/pegnet/PegNetPool/config"
 	log "github.com/sirupsen/logrus"
 )
 
