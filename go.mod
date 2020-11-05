@@ -4,8 +4,8 @@ go 1.13
 
 require (
 	github.com/Factom-Asset-Tokens/base58 v0.0.0-20191118025050-4fa02e92ec20
-	// github.com/Factom-Asset-Tokens/factom v0.0.0-20191120022136-7bf60a31a324
-	github.com/Factom-Asset-Tokens/factom v0.0.0-20200218011245-1ec32d463fe2
+	github.com/Factom-Asset-Tokens/factom v0.0.0-20200222022020-d06cbcfe6ece
+	github.com/Factom-Asset-Tokens/fatd v1.1.4
 	github.com/andybalholm/cascadia v1.1.0 // indirect
 	github.com/asaskevich/govalidator v0.0.0-20190424111038-f61b66f89f4a // indirect
 	github.com/aws/aws-sdk-go v1.25.12 // indirect
@@ -25,7 +25,7 @@ require (
 	github.com/mitchellh/gox v1.0.1 // indirect
 	github.com/pegnet/LXRHash v0.0.0-20200205233914-cceb516c4b7f
 	github.com/pegnet/pegnet v0.5.1-0.20200828161600-edf138a7971f
-	github.com/pegnet/pegnetd v0.1.2-0.20191011183044-5eca2d08a5e8
+	github.com/pegnet/pegnetd v0.5.3-0.20200828161939-098da4b7494b
 	github.com/prometheus/client_golang v1.0.0
 	github.com/qor/admin v0.0.0-20190906081516-5593fc33b920 // indirect
 	github.com/qor/assetfs v0.0.0-20170713023933-ff57fdc13a14 // indirect
@@ -49,7 +49,7 @@ require (
 	github.com/shopspring/decimal v0.0.0-20180709203117-cd690d0c9e24
 	github.com/sirupsen/logrus v1.4.2
 	github.com/spf13/cobra v0.0.5
-	github.com/spf13/viper v1.4.0
+	github.com/spf13/viper v1.6.2
 	github.com/stretchr/testify v1.4.0
 	github.com/theplant/cldr v0.0.0-20190423050709-9f76f7ce4ee8 // indirect
 	github.com/theplant/htmltestingutils v0.0.0-20190423050759-0e06de7b6967 // indirect
