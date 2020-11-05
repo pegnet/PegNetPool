@@ -8,7 +8,7 @@ import (
 	"testing"
 	"time"
 
-	. "github.com/FactomWyomingEntity/prosper-pool/stratum"
+	. "github.com/pegnet/PegNetPool/stratum"
 	"github.com/spf13/viper"
 	"github.com/stretchr/testify/require"
 )

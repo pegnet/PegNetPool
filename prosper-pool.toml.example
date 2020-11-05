@@ -76,7 +76,7 @@
   # N is the number of points in the Exponential Moving Average
   ema-n = 36
 
-  # Read about this here: https://github.com/FactomWyomingEntity/prosper-pool/wiki/Pool-Terms#soft-max-limit
+  # Read about this here: https://github.com/pegnet/PegNetPool/wiki/Pool-Terms#soft-max-limit
   # Putting 0 will disable this feature. 25 is recommended, anything over 50 is useless.
   softmax = 25
 

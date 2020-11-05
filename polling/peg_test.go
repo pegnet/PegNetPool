@@ -5,7 +5,7 @@ import (
 	"testing"
 	"time"
 
-	. "github.com/FactomWyomingEntity/prosper-pool/polling"
+	. "github.com/pegnet/PegNetPool/polling"
 )
 
 func TestPegAssets_Clone(t *testing.T) {

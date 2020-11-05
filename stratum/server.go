@@ -13,9 +13,9 @@ import (
 	"sync"
 	"time"
 
-	"github.com/FactomWyomingEntity/prosper-pool/authentication"
-	"github.com/FactomWyomingEntity/prosper-pool/config"
-	"github.com/FactomWyomingEntity/prosper-pool/difficulty"
+	"github.com/pegnet/PegNetPool/authentication"
+	"github.com/pegnet/PegNetPool/config"
+	"github.com/pegnet/PegNetPool/difficulty"
 	"github.com/pegnet/pegnet/modules/opr"
 	log "github.com/sirupsen/logrus"
 	"github.com/spf13/viper"

@@ -4,9 +4,9 @@ import (
 	"github.com/jinzhu/gorm"
 
 	"github.com/Factom-Asset-Tokens/factom"
-	"github.com/FactomWyomingEntity/prosper-pool/config"
-	"github.com/FactomWyomingEntity/prosper-pool/database"
-	"github.com/FactomWyomingEntity/prosper-pool/factomclient"
+	"github.com/pegnet/PegNetPool/config"
+	"github.com/pegnet/PegNetPool/database"
+	"github.com/pegnet/PegNetPool/factomclient"
 	"github.com/pegnet/pegnet/modules/grader"
 	log "github.com/sirupsen/logrus"
 	"github.com/spf13/viper"

@@ -1,10 +1,11 @@
-module github.com/FactomWyomingEntity/prosper-pool
+module github.com/pegnet/PegNetPool
 
 go 1.13
 
 require (
-	github.com/Factom-Asset-Tokens/base58 v0.0.0-20181227014902-61655c4dd885
-	github.com/Factom-Asset-Tokens/factom v0.0.0-20191120022136-7bf60a31a324
+	github.com/Factom-Asset-Tokens/base58 v0.0.0-20191118025050-4fa02e92ec20
+	// github.com/Factom-Asset-Tokens/factom v0.0.0-20191120022136-7bf60a31a324
+	github.com/Factom-Asset-Tokens/factom v0.0.0-20200218011245-1ec32d463fe2
 	github.com/andybalholm/cascadia v1.1.0 // indirect
 	github.com/asaskevich/govalidator v0.0.0-20190424111038-f61b66f89f4a // indirect
 	github.com/aws/aws-sdk-go v1.25.12 // indirect
@@ -21,6 +22,7 @@ require (
 	github.com/mattn/go-colorable v0.1.4 // indirect
 	github.com/mattn/go-isatty v0.0.10 // indirect
 	github.com/microcosm-cc/bluemonday v1.0.2 // indirect
+	github.com/mitchellh/gox v1.0.1 // indirect
 	github.com/pegnet/LXRHash v0.0.0-20200205233914-cceb516c4b7f
 	github.com/pegnet/pegnet v0.5.1-0.20200828161600-edf138a7971f
 	github.com/pegnet/pegnetd v0.1.2-0.20191011183044-5eca2d08a5e8

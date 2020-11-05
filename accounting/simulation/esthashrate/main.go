@@ -9,8 +9,8 @@ import (
 	"sync"
 	"time"
 
-	"github.com/FactomWyomingEntity/prosper-pool/accounting"
-	"github.com/FactomWyomingEntity/prosper-pool/difficulty"
+	"github.com/pegnet/PegNetPool/accounting"
+	"github.com/pegnet/PegNetPool/difficulty"
 )
 
 var _ = crand.Int

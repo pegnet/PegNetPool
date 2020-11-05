@@ -5,9 +5,9 @@ import (
 	"fmt"
 	"sync"
 
-	"github.com/FactomWyomingEntity/prosper-pool/config"
-	"github.com/FactomWyomingEntity/prosper-pool/difficulty"
-	"github.com/FactomWyomingEntity/prosper-pool/stratum"
+	"github.com/pegnet/PegNetPool/config"
+	"github.com/pegnet/PegNetPool/difficulty"
+	"github.com/pegnet/PegNetPool/stratum"
 	"github.com/jinzhu/gorm"
 	"github.com/shopspring/decimal"
 	log "github.com/sirupsen/logrus"

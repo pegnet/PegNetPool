@@ -7,7 +7,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/FactomWyomingEntity/prosper-pool/config"
+	"github.com/pegnet/PegNetPool/config"
 	"github.com/pegnet/pegnet/modules/opr"
 	log "github.com/sirupsen/logrus"
 	"github.com/spf13/viper"

@@ -10,9 +10,9 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/FactomWyomingEntity/prosper-pool/accounting"
-	"github.com/FactomWyomingEntity/prosper-pool/authentication"
-	"github.com/FactomWyomingEntity/prosper-pool/sharesubmit"
+	"github.com/pegnet/PegNetPool/accounting"
+	"github.com/pegnet/PegNetPool/authentication"
+	"github.com/pegnet/PegNetPool/sharesubmit"
 )
 
 func (s *HttpServices) Nav() []byte {

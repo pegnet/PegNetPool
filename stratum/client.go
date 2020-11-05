@@ -13,7 +13,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/FactomWyomingEntity/prosper-pool/mining"
+	"github.com/pegnet/PegNetPool/mining"
 	log "github.com/sirupsen/logrus"
 )
 

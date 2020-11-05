@@ -10,7 +10,7 @@ import (
 	"testing"
 	"time"
 
-	. "github.com/FactomWyomingEntity/prosper-pool/difficulty"
+	. "github.com/pegnet/PegNetPool/difficulty"
 )
 
 var _ = crand.Read

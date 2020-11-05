@@ -3,7 +3,7 @@ package cmd_test
 import (
 	"testing"
 
-	. "github.com/FactomWyomingEntity/prosper-pool/cmd"
+	. "github.com/pegnet/PegNetPool/cmd"
 )
 
 func TestAssetListContainsCaseInsensitive(t *testing.T) {

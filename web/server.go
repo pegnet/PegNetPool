@@ -4,14 +4,14 @@ import (
 	"fmt"
 	"net/http"
 
-	"github.com/FactomWyomingEntity/prosper-pool/minutekeeper"
+	"github.com/pegnet/PegNetPool/minutekeeper"
 
-	"github.com/FactomWyomingEntity/prosper-pool/stratum"
+	"github.com/pegnet/PegNetPool/stratum"
 
 	"github.com/jinzhu/gorm"
 
-	"github.com/FactomWyomingEntity/prosper-pool/authentication"
-	"github.com/FactomWyomingEntity/prosper-pool/config"
+	"github.com/pegnet/PegNetPool/authentication"
+	"github.com/pegnet/PegNetPool/config"
 	log "github.com/sirupsen/logrus"
 	"github.com/spf13/viper"
 )

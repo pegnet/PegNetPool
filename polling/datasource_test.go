@@ -4,7 +4,7 @@ import (
 	"net/http"
 	"testing"
 
-	. "github.com/FactomWyomingEntity/prosper-pool/polling"
+	. "github.com/pegnet/PegNetPool/polling"
 )
 
 // FixedDataSourceTest will test the parsing of the data source using the fixed response

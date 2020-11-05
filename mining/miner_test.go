@@ -6,7 +6,7 @@ import (
 	"math"
 	"testing"
 
-	. "github.com/FactomWyomingEntity/prosper-pool/mining"
+	. "github.com/pegnet/PegNetPool/mining"
 )
 
 // BenchmarkNonceRotate/simple_nonce_increment-8         	200000000	         7.94 ns/op
